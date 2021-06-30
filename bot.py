@@ -45,11 +45,11 @@ pytgcalls = PyTgCalls(client)
 pycalls = Wrapper(pytgcalls, "raw")
 
 
-@client.on_message(filters.command("on", "!") & filters.user(SUDO))
+@client.on_message(filters.command("on", "/") & filters.user(SUDO))
 async def online(_, message):
     await message.reply_text(f"I'm on.\n{Text.how_to}")
 
-@client.on_message(filters.command("stream", "!") & filters.user(SUDO))
+@client.on_message(filters.command("stream", "/") & filters.user(SUDO))
 async def stream(_, message):
     txt = message.text.split(' ', 1)
     type_ = None
@@ -84,13 +84,13 @@ async def stream(_, message):
         return await message.reply_text(Text.how_to)
 
 
-@client.on_message(filters.command("pause", "!") & filters.user(SUDO))
+@client.on_message(filters.command("pause", "/") & filters.user(SUDO))
 async def pause(_, message):
     pycalls.pause(message.chat.id)
     await message.reply_text("Paused Song.")
 
 
-@client.on_message(filters.me & filters.command("resume", "!") & filters.user(SUDO))
+@client.on_message(filters.me & filters.command("resume", "/") & filters.user(SUDO))
 async def resume(_, message):
     pycalls.resume(message.chat.id)
     await message.reply_text("Resumed playing.")
