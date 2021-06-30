@@ -35,4 +35,5 @@ Turn the dyno on and hope it works.
 - [pytgcalls](https://github.com/pytgcalls/pytgcalls)   
 - [pytgcalls-wrapper](https://github.com/callsmusic/pytgcalls-wrapper)   
 - [Pyrogram](https://github.com/pyrogram/pyrogram)   
-- [Me](https://github.com/xditya)   
+- [Xditya](https://github.com/xditya) 
+- [Me🙃](https://GitHub.com/Titan-OP)  
