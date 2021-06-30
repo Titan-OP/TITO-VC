@@ -1,12 +1,13 @@
 {
-    "name": "VCBot",
-    "description": "Just another Telegram VCBot, to stream songs in VC",
+    "name": "𝐓𝐈𝐓𝐀𝐍 𝐕𝐂 𝐁𝐎𝐓",
+    "description": "An amazing Telegram VC Song Bot....Add it to groups and have fun.",
+    "logo": ""
     "keywords": [
         "telegram",
         "vc bot"
     ],
-    "repository": "https://github.com/xditya/VCBot/",
-    "success_url": "https://t.me/BotzHub",
+    "repository": "https://github.com/Titan-OP/VCBot/",
+    "success_url": "https://t.me/TITANX_CHAT",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org!l",
