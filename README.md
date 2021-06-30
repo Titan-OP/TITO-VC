@@ -15,13 +15,13 @@ Turn the dyno on and hope it works.
 
 
 ## Commands:   
-- `!on` - Check if the (user)bot is online.   
-- `!stream` - Either give a youtube URL or reply to a telegram file to play it.   
-- `!pause` - Pause the stream.   
-- `!resume` - Yes, resume.   
+- `/on` - Check if the (user)bot is online.   
+- `/play` - Either give a youtube URL or reply to a telegram file to play it.   
+- `/pause` - Pause the stream.   
+- `/resume` - Yes, resume.   
 
 ## Support
-- [@BotzHub](https://t.me/BotzHubChat)   
+- [TITANX_CHAT](https://t.me/TITANX_CHAT)   
 
 
 ## TODO
