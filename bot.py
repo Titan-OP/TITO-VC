@@ -49,7 +49,7 @@ pycalls = Wrapper(pytgcalls, "raw")
 async def online(_, message):
     await message.reply_text(f"I'm on.\n{Text.how_to}")
 
-@client.on_message(filters.command("stream", "/") & filters.user(SUDO))
+@client.on_message(filters.command("play", "/") & filters.user(SUDO))
 async def stream(_, message):
     txt = message.text.split(' ', 1)
     type_ = None
